@@ -1,0 +1,109 @@
+<mjml>
+<mj-head>
+<mj-attributes>
+      <mj-text color="red" />
+	 <mj-all font-family="Roboto" />
+	     <mj-preview>YaromeMJML Test :D</mj-preview>
+	     <mj-title>YaromeMJML Test</mj-title>
+</mj-attributes>	
+</mj-head>
+	<mj-body>
+     <mj-hero
+      mode="fluid-height"
+      background-width="600px"
+      background-height="200px"
+      background-url=
+          "https://picsum.photos/600/200/?grayscale"
+      background-color="#2a3448"
+      padding="100px 0px">
+      <mj-text
+        padding="20px"
+        color="#ffffff"
+        font-family="Helvetica"
+        align="center"
+        font-size="45px"
+        line-height="45px"
+        font-weight="900">
+			Test
+      </mj-text>
+      <mj-button href="https://mjml.io/" align="center">
+Click Here!      </mj-button>
+    </mj-hero>
+<mj-wrapper border="1px solid #000000" padding="50px 30px" background-color="white">
+		<mj-section>
+			<!--Header-->
+			<mj-column>
+				<mj-text> Texto 1 </mj-text>
+                        <mj-spacer height="50px" />
+				<mj-text> Texto 2 </mj-text>
+                <mjml>
+			</mj-column>
+		</mj-section>
+
+		<!--Enlaces-->
+		<mj-section>
+			<mj-group background-color="black">
+				<mj-column> <mj-image src="./assets/1.png" href="https://www.youtube.com/" alt="1" /></mj-column>
+				<mj-column> <mj-image src="./assets/1.png" href="https://www.youtube.com/" alt="2" /></mj-column>
+				<mj-column> <mj-image src="./assets/1.png" href="https://www.youtube.com/" alt="3" /></mj-column>
+			</mj-group>
+		</mj-section>
+
+		<!--Seccion 1-->
+		<mj-section>
+			<mj-column>
+				<mj-text> Otro texto </mj-text>
+				<mj-text> Otro texto 2 </mj-text>
+				<mj-button> Pulsar botón</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<!--Secciones 2-->
+		<mj-section>
+			<mj-column>
+				<mj-text>Fugiat sit sit minim non ullamco et deserunt duis nulla velit consequat. </mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!--Secciones 3-->
+		<mj-section>
+			<mj-column><mj-button href="#"> Botón </mj-button></mj-column>
+			<mj-column><mj-button href="#"> Botón </mj-button></mj-column>
+			<mj-column><mj-button href="#"> Botón </mj-button></mj-column>
+		</mj-section>	
+</mj-wrapper>
+
+		<!--Secciones 4-->
+<mj-wrapper border="1px solid #000000" background-color="white" padding="50px 30px">
+			
+		<mj-section>
+			<mj-column>
+							<mj-text> Otro texto </mj-text>
+
+				<mj-carousel>
+					<mj-carousel-image src="https://picsum.photos/400/200?random=1" />
+					<mj-carousel-image src="https://picsum.photos/400/200?random=2" />
+					<mj-carousel-image src="https://picsum.photos/400/200?random=3" />
+				</mj-carousel>
+			</mj-column>
+		</mj-section>
+		<!--Redes sociales-->
+		<mj-section>
+			<mj-column>
+				<mj-text> Ipsum adipisicing commodo nisi aliquip anim mollit occaecat. </mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+			<mj-column>
+				<mj-social font-size="15px" icon-size="30px" mode="horizontal">
+					<mj-social-element name="youtube" href="#"> Youtube </mj-social-element>
+					<mj-social-element name="github" href="#"> Github </mj-social-element>
+					<mj-social-element name="twitter" href="#"> Twitter </mj-social-element>
+				</mj-social>
+			</mj-column>
+		</mj-section>
+		</mj-wrapper>
+
+	</mj-body>
+</mjml>
