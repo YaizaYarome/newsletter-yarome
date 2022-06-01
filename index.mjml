@@ -1,109 +1,148 @@
 <mjml>
-<mj-head>
-<mj-attributes>
-      <mj-text color="red" />
-	 <mj-all font-family="Roboto" />
-	     <mj-preview>YaromeMJML Test :D</mj-preview>
-	     <mj-title>YaromeMJML Test</mj-title>
-</mj-attributes>	
-</mj-head>
+	<mj-head>
+		<mj-attributes>
+			<mj-class name="title" padding="20px" align="center" font-size="30px" line-height="35px" font-weight="900" letter-spacing="2px" text-transform="uppercase" font-family="Big Caslon, Garamond, Times, serif" />
+
+			<mj-class name="color1" color="#7AC74F" />
+			<mj-class name="color2" color="#E5E059" />
+			<mj-class name="color3" color="#FFFFFF" />
+			<mj-class name="color4" color="#eaeaae" />
+			<mj-class name="color5" color="#E87461" />
+			<mj-class name="button" background-color="#E87461" width="130px" border-radius="30px" font-size="14px" />
+			<mj-text color="black" line-height="20px" font-size="15px" font-family="Open Sans, Arial, sans-serif" />
+			<mj-preview>YaromeMJML Test</mj-preview>
+			<mj-title>YaromeMJML Test</mj-title>
+		</mj-attributes>
+		<mj-style> .box { box-shadow: inset 0px 0px 13px -12px rgba(0,0,0,1)} </mj-style>
+	</mj-head>
 	<mj-body>
-     <mj-hero
-      mode="fluid-height"
-      background-width="600px"
-      background-height="200px"
-      background-url=
-          "https://picsum.photos/600/200/?grayscale"
-      background-color="#2a3448"
-      padding="100px 0px">
-      <mj-text
-        padding="20px"
-        color="#ffffff"
-        font-family="Helvetica"
-        align="center"
-        font-size="45px"
-        line-height="45px"
-        font-weight="900">
-			Test
-      </mj-text>
-      <mj-button href="https://mjml.io/" align="center">
-Click Here!      </mj-button>
-    </mj-hero>
-<mj-wrapper border="1px solid #000000" padding="50px 30px" background-color="white">
-		<mj-section>
-			<!--Header-->
-			<mj-column>
-				<mj-text> Texto 1 </mj-text>
-                        <mj-spacer height="50px" />
-				<mj-text> Texto 2 </mj-text>
-                <mjml>
-			</mj-column>
-		</mj-section>
-
-		<!--Enlaces-->
-		<mj-section>
-			<mj-group background-color="black">
-				<mj-column> <mj-image src="./assets/1.png" href="https://www.youtube.com/" alt="1" /></mj-column>
-				<mj-column> <mj-image src="./assets/1.png" href="https://www.youtube.com/" alt="2" /></mj-column>
-				<mj-column> <mj-image src="./assets/1.png" href="https://www.youtube.com/" alt="3" /></mj-column>
-			</mj-group>
-		</mj-section>
-
-		<!--Seccion 1-->
-		<mj-section>
-			<mj-column>
-				<mj-text> Otro texto </mj-text>
-				<mj-text> Otro texto 2 </mj-text>
-				<mj-button> Pulsar botón</mj-button>
-			</mj-column>
-		</mj-section>
-
-		<!--Secciones 2-->
-		<mj-section>
-			<mj-column>
-				<mj-text>Fugiat sit sit minim non ullamco et deserunt duis nulla velit consequat. </mj-text>
-			</mj-column>
-		</mj-section>
-
-		<!--Secciones 3-->
-		<mj-section>
-			<mj-column><mj-button href="#"> Botón </mj-button></mj-column>
-			<mj-column><mj-button href="#"> Botón </mj-button></mj-column>
-			<mj-column><mj-button href="#"> Botón </mj-button></mj-column>
-		</mj-section>	
-</mj-wrapper>
-
-		<!--Secciones 4-->
-<mj-wrapper border="1px solid #000000" background-color="white" padding="50px 30px">
-			
-		<mj-section>
-			<mj-column>
-							<mj-text> Otro texto </mj-text>
-
-				<mj-carousel>
-					<mj-carousel-image src="https://picsum.photos/400/200?random=1" />
-					<mj-carousel-image src="https://picsum.photos/400/200?random=2" />
-					<mj-carousel-image src="https://picsum.photos/400/200?random=3" />
-				</mj-carousel>
-			</mj-column>
-		</mj-section>
-		<!--Redes sociales-->
-		<mj-section>
-			<mj-column>
-				<mj-text> Ipsum adipisicing commodo nisi aliquip anim mollit occaecat. </mj-text>
-			</mj-column>
-		</mj-section>
-
-		<mj-section>
-			<mj-column>
-				<mj-social font-size="15px" icon-size="30px" mode="horizontal">
-					<mj-social-element name="youtube" href="#"> Youtube </mj-social-element>
-					<mj-social-element name="github" href="#"> Github </mj-social-element>
-					<mj-social-element name="twitter" href="#"> Twitter </mj-social-element>
-				</mj-social>
-			</mj-column>
-		</mj-section>
+		<mj-wrapper>
+			<mj-hero background-width="600px" background-height="200px" background-url="./assets/hero.jpg" background-color="#FFF" padding="200px 0px" css-class="box">
+				<mj-text padding="20px" align="center" font-size="45px" line-height="45px" font-weight="900" letter-spacing="10px" text-transform="uppercase" mj-class="color1 title"> Newsletter </mj-text>
+				<mj-text padding="20px" mj-class="color2" align="center" font-size="25px" line-height="10px" font-weight="400"> Subtitle to hype you up! </mj-text>
+				<mj-button background-color="#111" mj-class="color5" font-size="16px" align="center" padding="15px 10px" width="190px" height="40px" border-radius="30px" href="http://www.google.com/"
+					><span style="text-transform: uppercase; letter-spacing: 2px">Click here</span></mj-button
+				>
+			</mj-hero>
 		</mj-wrapper>
 
+		<!--Section 1-->
+		<mj-wrapper padding="50px 30px" css-class="box">
+			<mj-section>
+				<mj-column>
+					<mj-text>
+						Anim reprehenderit ad enim adipisicing.Ad ullamco incididunt ea consectetur aliquip magna nostrud commodo proident id veniam. Anim enim id occaecat duis nostrud. Dolore ea sit minim ex consequat magna enim sit dolor non laboris.
+						<a href="https://mjml.io/" style="text-decoration: none">
+							<span style="color: #e87461"> &nbsp;Eiusmod ea culpa minim et.&nbsp; </span>
+						</a>
+
+						Irure proident exercitation nostrud et anim Lorem sunt ullamco consectetur ullamco duis consectetur adipisicing irure.
+					</mj-text>
+					<mj-text>
+						Anim minim ea sunt adipisicing amet qui excepteur non ipsum do incididunt tempor. Minim ut officia velit quis duis eiusmod non eiusmod esse occaecat cillum commodo. Sunt amet labore fugiat laboris non est sunt sunt labore incididunt.
+						<a href="https://mjml.io/" style="text-decoration: none">
+							<span style="color: #e87461"> &nbsp;Et sunt eu nostrud ipsum sunt.&nbsp; </span>
+						</a>
+						Cupidatat id veniam consequat do eu enim labore non elit. Commodo esse magna dolor consequat non.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column> <mj-image src="./assets/1.jpg" href="https://www.linkedin.com/in/yaizayarome/" alt="1" /></mj-column>
+				<mj-column> <mj-image src="./assets/2.jpg" href="https://www.linkedin.com/in/yaizayarome/" alt="2" /></mj-column>
+				<mj-column> <mj-image src="./assets/3.jpg" href="https://www.linkedin.com/in/yaizayarome/" alt="3" /></mj-column>
+			</mj-section>
+		</mj-wrapper>
+
+		<!--Section 2-->
+		<mj-wrapper background-url="./assets/section1.jpg" css-class="box">
+			<mj-section>
+				<mj-column>
+					<mj-text mj-class="title color5"> Title number 1 </mj-text>
+				</mj-column>
+			</mj-section>
+
+			<mj-section padding="50px 0px" background-size="cover">
+				<mj-column width="45%" background-color="#ffffff" padding="20px">
+					<mj-text font-weight="700" font-size="25px" mj-class="color5" align="center">Lorem Ipsum </mj-text>
+				</mj-column>
+				<mj-column width="45%" background-color="#ffffff" padding="20px">
+					<mj-text font-weight="700" font-size="25px" align="center" mj-class="color5"> Dolor Amet </mj-text>
+				</mj-column>
+			</mj-section>
+
+			<mj-section>
+				<mj-column>
+					<mj-text align="center" font-weight="400" font-size="18px" mj-class="color3">Consequat velit dolor consectetur enim aliquip non elit est velit deserunt ad esse.</mj-text>
+				</mj-column>
+			</mj-section>
+
+			<mj-section>
+				<mj-column
+					><mj-button href="#" mj-class="button"> <span style="text-transform: uppercase; letter-spacing: 2px">first button</span> </mj-button></mj-column
+				>
+				<mj-column
+					><mj-button href="#" mj-class="button"> <span style="text-transform: uppercase; letter-spacing: 2px">second button</span> </mj-button></mj-column
+				>
+				<mj-column
+					><mj-button href="#" mj-class="button"> <span style="text-transform: uppercase; letter-spacing: 2px">third button</span> </mj-button></mj-column
+				>
+			</mj-section>
+		</mj-wrapper>
+
+		<mj-wrapper padding="0px">
+			<mj-section background-color="#f9f9f9">
+				<mj-column width="270px">
+					<mj-image src="./assets/section1.jpg" width="270px"></mj-image>
+				</mj-column>
+				<mj-column width="270px">
+					<mj-text font-size="30px" line-height="30px" padding="30px 10px 15px" text-transform="uppercase" align="center"> subtitle</mj-text>
+					<mj-text padding="5px 15px" align="center">Tempor adipisicing elit ipsum enim tempor magna cillum officia duis laboris. Eu voluptate ut labore enim reprehenderit Lorem.</mj-text>
+					<mj-button background-color="#111" mj-class="color5" font-size="16px" align="center" padding="15px 10px" width="190px" height="40px" border-radius="30px" href="http://www.google.com/"
+						><span style="text-transform: uppercase; letter-spacing: 2px">Click here</span></mj-button
+					>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+
+		<!--Section 2-->
+		<mj-wrapper padding="10px 30px" css-class="box">
+			<mj-section>
+				<mj-column>
+					<mj-text mj-class="color1 title"> Title number 2 </mj-text>
+
+					<mj-carousel icon-width="50px" left-icon="./assets/arrowleft.png" right-icon="./assets/arrowright.png" tb-hover-border-color="#7AC74F">
+						<mj-carousel-image src="https://picsum.photos/400/200?random=1" />
+						<mj-carousel-image src="https://picsum.photos/400/200?random=2" />
+						<mj-carousel-image src="https://picsum.photos/400/200?random=3" />
+					</mj-carousel>
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column>
+					<mj-text align="center">
+						Ipsum adipisicing commodo nisi aliquip anim mollit occaecat. Voluptate commodo enim irure in reprehenderit nulla. Adipisicing tempor ut magna incididunt dolor est cillum nisi occaecat laborum ipsum duis incididunt eiusmod. Excepteur
+						nostrud sint veniam cupidatat eiusmod labore dolor qui occaecat mollit tempor.</mj-text
+					>
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column>
+					<mj-social font-size="15px" icon-size="30px" mode="horizontal" color="white" align="center">
+						<mj-social-element name="youtube" href="https://www.youtube.com/" padding="10px"></mj-social-element>
+						<mj-social-element name="github" href="https://github.com/YaizaYarome" padding="10px"></mj-social-element>
+						<mj-social-element name="twitter" href="https://twitter.com/yaromedev" padding="10px"></mj-social-element>
+					</mj-social>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<mj-section padding="10px 0 20px 0">
+			<mj-column>
+				<mj-text align="center" color="#9B9B9B" font-size="11px"
+					><a href="#" style="color: #9b9b9b">Unsubscribe</a> from this newsletter<br />Jerez de la Frontera, Spain<br />
+					<a href="#" style="color: #9b9b9b; text-decoration: none">Made with love by YaromeDev ♥</a></mj-text
+				>
+			</mj-column>
+		</mj-section>
 	</mj-body>
 </mjml>
