@@ -9,7 +9,7 @@ The content displayed includes artwork made by myself for several commissioners.
 
 </div>
 <a href="https://yaizayarome.github.io/newsletter-yarome/" target="_blank" rel="noreferrer noopener">
-<img src="blob:https://imgur.com/1b85a8f8-d453-4ba3-9de4-c726f9187cf2" alt="miniature"/>
+<img src="https://i.imgur.com/M3r4K4i.jpg" alt="miniature"/>
 </a>
 
 ## Features
